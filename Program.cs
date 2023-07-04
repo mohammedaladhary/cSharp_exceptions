@@ -24,8 +24,11 @@
                 new Student ("Ahmed","12322S",54),
                 new Student ("Salim","12322S",34)
             };
-            Console.WriteLine(Student.validateStudents(students));
-
+            //Console.WriteLine(Student.validateStudents(students));
+            //---------T5------------------
+            BankAccount account = new BankAccount(400);
+            decimal withdrawalAmount = 500;
+            account.Withdraw(withdrawalAmount);
 
         }
         private static Boolean validate(Student[] student)

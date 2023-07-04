@@ -24,6 +24,7 @@
                         //throw new ApplicationException("ERROR: " + students[i].studentName + 
                         //    " has the same studentID with: "+ students[j].studentName);
                         throw new SameRegistrationNumberException(students[i], students[j]);
+
                     }
                 }
             }

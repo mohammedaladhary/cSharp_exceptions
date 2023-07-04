@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\TRA\\.nuget\\packages\\": {}
+    "/Users/mohammedaladhary/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TRA\\Desktop\\code_TRA\\Exceptions\\Exceptions.csproj",
+      "projectUniqueName": "/Users/mohammedaladhary/Documents/Visual_Studio/cSharp_exceptions/Exceptions.csproj",
       "projectName": "Exceptions",
-      "projectPath": "C:\\Users\\TRA\\Desktop\\code_TRA\\Exceptions\\Exceptions.csproj",
-      "packagesPath": "C:\\Users\\TRA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TRA\\Desktop\\code_TRA\\Exceptions\\obj\\",
+      "projectPath": "/Users/mohammedaladhary/Documents/Visual_Studio/cSharp_exceptions/Exceptions.csproj",
+      "packagesPath": "/Users/mohammedaladhary/.nuget/packages/",
+      "outputPath": "/Users/mohammedaladhary/Documents/Visual_Studio/cSharp_exceptions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/mohammedaladhary/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }
