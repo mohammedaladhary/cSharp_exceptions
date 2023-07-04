@@ -15,7 +15,22 @@
             //----------T2-------------
             //ageUser();
             //----------T3-------------
-            filePath();
+            //filePath();
+            //----------T4-------------
+            //numericSeries();
+            Student[] students =
+            {
+                new Student ("Adhary","160450",24),
+                new Student ("Ahmed","12322S",54),
+                new Student ("Salim","12322S",34)
+            };
+            Console.WriteLine(Student.validateStudents(students));
+
+
+        }
+        private static Boolean validate(Student[] student)
+        {
+            return Student.validateStudents(student);
         }
         //-------------------------Task1----------------------------
         private static float divide(int a, int b)
@@ -99,6 +114,28 @@
             catch (UnauthorizedAccessException e)
             {
                 Console.WriteLine(e.Message);
+            }
+        }
+        private static void numericSeries()
+        {
+            try
+            {
+                Console.Write("Enter a series of numbers: ");
+                string invNum = Console.ReadLine();
+
+                if (!double.TryParse(invNum, out double value))
+                {
+                    Console.WriteLine("ERROR: Invalid input was entered.");
+                }
+                else
+                {
+                    Console.WriteLine("Series of numbers : " + invNum);
+
+                }
+            }
+            catch (Exception inv)
+            {
+                Console.WriteLine(inv.Message);
             }
         }
     }
